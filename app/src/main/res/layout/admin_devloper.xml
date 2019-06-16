@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/devloper_bg">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Devloper"
+        android:textSize="22dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/devloper_text"/>
+
+    <Button
+        android:id="@+id/admin_view_devloper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="208dp"
+        android:text="View Total Devloper" />
+
+    <Button
+        android:id="@+id/admin_deactive_devloper_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="308dp"
+        android:text="Deactive Devloper Account" />
+    <Button
+        android:id="@+id/admin_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="408dp"
+        android:text="Back" />
+
+</RelativeLayout>

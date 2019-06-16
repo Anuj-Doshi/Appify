@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/upload_your_apps_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:text="Upload Your Apps"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        tools:ignore="InvalidId"
+        android:layout_marginTop="15dp"/>
+
+
+
+    <EditText
+        android:id="@+id/devloper_upload_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/upload_your_apps_text"
+        android:layout_marginTop="128dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Application Name" />
+
+    <EditText
+        android:id="@+id/devloper_upload_dev_name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/upload_your_apps_text"
+        android:layout_marginTop="203dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Devloper Name" />
+
+
+    <Button
+        android:id="@+id/devloper_upload_upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="353dp"
+        android:text="Upload" />
+
+    <Button
+        android:id="@+id/devloper_upload_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="428dp"
+        android:text="Back" />
+
+
+    <Button
+        android:id="@+id/devloper_upload_image_view_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/devloper_upload_app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-128dp"
+        android:text="Browse" />
+
+    <EditText
+        android:id="@+id/devloper_upload_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/upload_your_apps_text"
+        android:layout_marginTop="278dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Application Type" />
+
+    <ImageView
+        android:id="@+id/devloper_upload_icon"
+        android:layout_width="228dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+
+</RelativeLayout>

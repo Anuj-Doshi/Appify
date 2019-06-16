@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appify.anuj.appify">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DevloperMainActivity"></activity>
+        <activity android:name=".UploadApps"></activity>
+        <activity android:name=".AdminMainActivity"></activity>
+        <activity android:name=".AdminDevloper"></activity>
+        <activity android:name=".AdminApplication"></activity>
+        <activity android:name=".admin_view_devloper"></activity>
+        <activity android:name=".admin_view_devloper_details"></activity>
+        <activity android:name=".AnimeActivity"></activity>
+        <activity android:name=".Activityss1">
+
+        </activity>
+        <activity android:name=".Activityss2"></activity>
+        <activity android:name=".Activityss3"></activity>
+    </application>
+
+</manifest>
